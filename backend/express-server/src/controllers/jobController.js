@@ -164,7 +164,7 @@ const getJobHistory = async (req, res) => {
 };
 
 // Rest of your existing scraper functions remain the same...
-const SCRAPER_API_KEY = '9ec92d418a07c6daa500cdd7c7148a5e';
+const SCRAPER_API_KEY = '';
 const SCRAPER_API_URL = 'http://api.scraperapi.com';
 
 const fetchWithScraperAPI = async (url, options = {}) => {
